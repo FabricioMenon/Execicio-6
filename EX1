@@ -1,0 +1,6 @@
+produto = ("Produto X", 100.50, 20)  # nome, preço, quantidade em estoque
+
+# Exibindo as informações formatadas
+print(f"Nome do Produto: {produto[0]}")
+print(f"Preço: R${produto[1]:.2f}")
+print(f"Quantidade em Estoque: {produto[2]}")
