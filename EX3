@@ -1,0 +1,11 @@
+# Tupla com as cores do arco-íris
+cores_arco_iris = ("Vermelho", "Laranja", "Amarelo", "Verde", "Azul", "Anil", "Violeta")
+
+# Solicitar ao usuário um número entre 1 e 7
+numero = int(input("Digite um número de 1 a 7 para saber a cor correspondente: "))
+
+# Exibindo a cor correspondente
+if 1 <= numero <= 7:
+    print(f"A cor correspondente é: {cores_arco_iris[numero - 1]}")
+else:
+    print("Número inválido. Escolha um número de 1 a 7.")
