@@ -1,0 +1,19 @@
+# Tupla com os 10 primeiros times
+times = ("Flamengo", "Palmeiras", "São Paulo", "Atlético-MG", "Corinthians", "Internacional", "Fluminense", "Grêmio", "Vasco", "Santos")
+
+# Exibindo os 3 primeiros colocados
+print(f"Os três primeiros colocados são: {times[:3]}")
+
+# Exibindo os 3 últimos colocados
+print(f"Os três últimos colocados são: {times[-3:]}")
+
+# Exibindo os times em ordem alfabética
+print(f"Times em ordem alfabética: {sorted(times)}")
+
+# Solicitar o nome de um time e exibir sua posição
+time_especifico = input("\nDigite o nome de um time para saber sua posição: ")
+
+if time_especifico in times:
+    print(f"O time {time_especifico} está na posição {times.index(time_especifico) + 1}.")
+else:
+    print("Time não encontrado.")
